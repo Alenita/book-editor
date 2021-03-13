@@ -6,4 +6,4 @@
     `npm start`
 
 Во втором терминале отдельно запустить JSON сервер:
-`json-server --watch db.json --port 3004`
+`json-server --watch db.json --port 8000`
