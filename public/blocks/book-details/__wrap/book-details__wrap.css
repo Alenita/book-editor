@@ -1,0 +1,6 @@
+.book-details__wrap {
+    width: 80%;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: left;
+}

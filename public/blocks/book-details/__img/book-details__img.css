@@ -1,0 +1,6 @@
+.book-details__img {
+    object-fit: contain;
+    width: 300px;
+    
+    margin-right: 60px
+}

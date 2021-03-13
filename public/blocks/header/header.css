@@ -1,0 +1,9 @@
+@import url(__wrap/header__wrap.css);
+.header {
+    padding: 20px; 
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #737b79;
+    width: 100%;
+    box-sizing: border-box;
+}

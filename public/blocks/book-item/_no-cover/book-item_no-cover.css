@@ -1,0 +1,11 @@
+.book-item_no-cover {
+    background-color: #62464c;
+    width: 218px;
+    height: 327px;
+    padding: 30% 10%;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}

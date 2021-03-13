@@ -1,0 +1,6 @@
+@import url(__wrap/book-details__wrap.css);
+@import url(__img/book-details__img.css);
+
+.book-details {
+    width: 100%;
+}

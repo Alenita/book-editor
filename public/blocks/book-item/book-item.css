@@ -1,0 +1,10 @@
+@import url(_no-cover/book-item_no-cover.css);
+.book-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1,7rem;
+    line-height: 1rem;
+    margin: 50px auto;
+}

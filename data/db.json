@@ -1,0 +1,100 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "authorName": "Harper",
+      "authorLastName": "Lee",
+      "pages": 309,
+      "publisher": "Random House - Penguin",
+      "published": 1960,
+      "publicationDate": "1988-10-11",
+      "isbn": "978-0-09-954948-2",
+      "cover": "/img/to-kill-a-mockinbird.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Dracula",
+      "authorName": "Harper",
+      "authorLastName": "Lee",
+      "pages": 309,
+      "publisher": "Random House - Penguin",
+      "published": 1960,
+      "publicationDate": "1988-10-11",
+      "isbn": "978-0-09-954948-2",
+      "cover": "/img/Dracula.png"
+    },
+    {
+      "id": 5,
+      "title": "Do Androids Dream of Electric Sheep",
+      "authorName": "Philip K.",
+      "authorLastName": "Dick",
+      "pages": 208,
+      "publisher": "Orion Books",
+      "published": 1968,
+      "publicationDate": "1988-10-11",
+      "isbn": "978-0-575-09418-5",
+      "cover": "/img/dream-of-electric-ship.jpg"
+    },
+    {
+      "id": 6,
+      "title": "To Kill a Mockingbird",
+      "authorName": "Harper",
+      "authorLastName": "Lee",
+      "pages": 309,
+      "publisher": "Random House - Penguin",
+      "published": 1960,
+      "publicationDate": "1988-10-11",
+      "isbn": "978-0-09-954948-2",
+      "cover": "/img/moby-dick.jpg"
+    },
+    {
+      "id": 7,
+      "title": "To Kill a Mockingbird",
+      "authorName": "Harper",
+      "authorLastName": "Lee",
+      "pages": 309,
+      "publisher": "Random House - Penguin",
+      "published": 1960,
+      "publicationDate": "1988-10-11",
+      "isbn": "978-0-09-954948-2",
+      "cover": "/img/solaris.jpg"
+    },
+    {
+      "title": "rgeg",
+      "authorName": "thrth",
+      "authorLastName": "trh",
+      "pages": "rth",
+      "publisher": "rthrh",
+      "published": "2021-01-07",
+      "publicationDate": "2021-02-12",
+      "isbn": "",
+      "cover": "/img/the-shining.png",
+      "id": 10
+    },
+    {
+      "title": "kbjdkjbn",
+      "authorName": "klnfgjnf",
+      "authorLastName": "fdkdlgb",
+      "pages": "200",
+      "publisher": "",
+      "published": "",
+      "publicationDate": "2000-10-01",
+      "isbn": "",
+      "cover": "",
+      "id": 11
+    },
+    {
+      "title": "njn",
+      "authorName": "jknkjn",
+      "authorLastName": "kjnkj",
+      "pages": "90",
+      "publisher": "",
+      "published": "",
+      "publicationDate": "2020-03-30",
+      "isbn": "",
+      "cover": "",
+      "id": 13
+    }
+  ]
+}
