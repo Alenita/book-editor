@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import HomePage from './components/home-page/home-page.js';
+import Homepage from './components/homepage/homepage.js';
 import Footer from './components/footer/footer.js';
 import BookDetails from './components/book-details/book-details.js';
 
@@ -12,7 +12,7 @@ function App() {
       <div className='App'>
         <Switch>
           <Route exact path='/'>
-            <HomePage />
+            <Homepage />
           </Route>
           <Route path='/books/:id'>
             <BookDetails />

@@ -2,12 +2,14 @@ import React, {useState} from 'react';
 import { useHistory } from "react-router-dom";
 
 import AddingBookForm from '../adding-book-form/adding-book-form.js';
+import EditingBookForm from '../editing-book-form/editing-book-form.js';
 // import { Link } from 'react-router-dom';
 
 // import /add-book from '../edit-button/edit-button.js';
 import Sort from '../sort/sort.js';
 
 const Header = (props) => {
+    const { sort } = props;
     const [popupButton, setPopupButton] = useState(false);
     const history = useHistory();
 
@@ -15,7 +17,7 @@ const Header = (props) => {
         <header className='header'>
             { props.isHomepage &&
                 <div className='header__wrap'>
-                    <Sort />
+                    <Sort sort={sort}/>
                     <button
                         className='button'
                         onClick={() => setPopupButton(true)}>Add new book</button>
@@ -32,8 +34,11 @@ const Header = (props) => {
                         onClick={() => history.push('/')}>Homepage</button>
                     <button
                         className='button'
-                        onClick={() => setPopupButton(true)}>Edit book details</button>
-                    <AddingBookForm isPopupOpen={popupButton} setPopup={setPopupButton}/>
+                        onClick={() => setPopupButton(true)} >Edit book details</button>
+                    <EditingBookForm 
+                    isPopupOpen={popupButton} 
+                    setPopup={setPopupButton}
+                    />
                 </div>
             }
         </header>

@@ -1,7 +1,7 @@
 @import url(__select/sort__select.css);
 
 .sort {
-    width: 50%;
+    width: 45%;
     display: flex;
     background: #F9F9F9;
     border: 1px solid #D1D1D1;
